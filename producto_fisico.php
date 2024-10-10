@@ -1,5 +1,5 @@
 <?php
-include_once 'cliente.php';
+include_once 'producto.php';
 
 class ProductoFisico extends Producto {
     private $peso;
