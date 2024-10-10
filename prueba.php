@@ -7,7 +7,7 @@ $c2 = new Cliente ("Ana");
 
 
 $productoFisico = new ProductoFisico("Telefono", 1000, 0.5);
-echo "Nombre: " . $productoFisico->getNombre();
+echo "Nombre: " . $productoFisico->getNombre() . ", Precio: " . $productoFisico->getPrecio() . ". Peso: " . $productoFisico->calculaPrecioFinal();
 
 ?>
 
