@@ -1,3 +1,3 @@
 <?php
-echo "Aqui llamaremos al controlador"
+require_once 'CONTROLADOR/ProductoControler.php';
 ?>

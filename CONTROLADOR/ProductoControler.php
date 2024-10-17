@@ -12,6 +12,9 @@ class ProductoControler {
 
     public function ejecuta() {
         $productos = $this-> listarProducto();
+
+        //Cargar la vista y guarda los productos
+        require_once("VISTA/Main.php");
     }
 }
 ?>
