@@ -1,6 +1,6 @@
 <?php
-require_once 'cliente.php';
-require_once 'producto_fisico.php';
+require_once 'MODELO/cliente.php';
+require_once 'MODELO/producto_fisico.php';
 
 $c1 = new Cliente ("Pablo");
 $c2 = new Cliente ("Ana");
